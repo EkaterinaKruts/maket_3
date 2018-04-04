@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  margin: auto;
+  background-position: center;
+  background-color: #000000;
+  font-family: Tahoma, Verdana, sans-serif;
+
+}
+header {
+  height: 147px;
+}
+
+div.container {
+  background-image: url(./../images/background.jpg);
+  margin: auto;
+  width: 820px;
+  height: 803px;
+  padding:50px 70px 30px 70px;
+
+}
+div.logo {
+  display: inline-block;
+  margin: 0;
+  width: 263px;
+  height: 147px;
+  background-image: url(./../images/palms3.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+
+}
+
+img.logo_main {
+  display: block;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 10px;
+
+
+}
+
+div.slogan {
+  display: block;
+  padding: 0;
+  padding-bottom: 15px;
+  color: #ffffff;
+  font-size: 82%;
+  font-weight: bolder;
+  text-align: center;
+  vertical-align: bottom;
+
+
+}
+
+div.contacts_inform {
+  display: inline-block;
+  float: right;
+  padding-top: 83px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+
+}
+
+a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 73%;
+}
+
+div.title {
+  color: #ffffff;
+  font-size: 82%;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+figure {
+  margin: 0;
+  display: inline-block;
+}
+figcaption {
+  color: #aeaeae;
+  text-align: center;
+  font-size: 15px;
+}
