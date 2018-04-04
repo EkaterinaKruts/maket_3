@@ -43,9 +43,8 @@ div.slogan {
   display: block;
   padding: 0;
   padding-bottom: 15px;
-  color: #ffffff;
-  font-size: 82%;
-  font-weight: bolder;
+  color: #e6e6e6;
+  font-size: 60%;
   text-align: center;
   vertical-align: bottom;
 
@@ -63,23 +62,30 @@ div.contacts_inform {
 
 a {
   display: block;
-  color: #ffffff;
+  color: #e6e6e6;
   text-decoration: none;
-  font-size: 73%;
+  font-size: 55%;
 }
 
 div.title {
-  color: #ffffff;
-  font-size: 82%;
-  font-weight: bolder;
+  color: #e6e6e6;
+  font-size: 60%;
   padding-bottom: 5px;
 }
 figure {
   margin: 0;
+  padding: 0;
   display: inline-block;
+  float: left;
 }
 figcaption {
   color: #aeaeae;
   text-align: center;
   font-size: 15px;
+}
+
+figure img {
+  width: 257px;
+  border: 6px solid transparent;
+  border-image: url(./../images/ramka.png) 6 stretch;
 }
