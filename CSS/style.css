@@ -52,7 +52,6 @@ div.slogan {
 }
 
 div.contacts_inform {
-  display: inline-block;
   float: right;
   padding-top: 83px;
   padding-right: 10px;
@@ -96,6 +95,11 @@ figure:hover {
 
 }
 
+.countries:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 figure.image_magrin {
   margin-right: 6.5px;
@@ -106,7 +110,6 @@ footer {
   color: #e6e6e6;
   font-size: 60%;
   display: inline-block;
-  position: relative;
   width: 820px;
   text-align: center;
   margin-top: 107px;
